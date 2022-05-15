@@ -1,0 +1,19 @@
+{
+	"name": "notion-integration",
+	"type": "commonjs",
+	"version": "1.0.0",
+	"description": "An integration that creates events on calendar based on my tasks",
+	"main": "index.js",
+	"dependencies": {
+		"@notionhq/client": "^1.0.1",
+		"dotenv": "^16.0.1",
+		"nodemon": "^2.0.16"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"devDependencies": {
+		"eslint": "^8.15.0"
+	}
+}
